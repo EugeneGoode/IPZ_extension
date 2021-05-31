@@ -1,30 +1,25 @@
-## react-chrome-extension
-![Alt text](./react-chrome-extension.png?raw=true "Optional Title")
+## Розширення для браузера на React
 
-This is the first in a series of React boilerplate projects to help web developers learn and understand React. This project actually came about as I was creating my latest project, [StyleStash - Save Your favorite CSS Styles](https://stylestash.dev).
+Проект студента ІО-92 Гуденка Євгенія
 
-## Video Code Walkthrough
 
-If you're more of a visual learner, I've recorded a [20 minute video walkthrough of this project](https://www.youtube.com/watch?v=4x0lQu1TOCQ).
-
-### Local Testing
+### Локальне тестування
 
 `npm start`
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Запускає розширення в режимі розробника.<br>
+Відкрити [http://localhost:3000](http://localhost:3000) в браузері щоб побачити.
 
-### Testing Inside Chrome
+### Тестування через Хром
 
-This project needs to be built in order to take advantage of the Chrome Extension API, such as using the Content script to get the extension's ID, or using the Chrome Storage API. These features cannot be used when running this project locally.
+Цей проект повинен бути "збудованим", щоб використовувати переваги API Хрому для розширень, наприклад виконання скрипту для отримання ID розширення, що неможливо при запуску локально.
 
-To load as a developer extension inside of Chrome:
+Щоб завантажити розширення в Хром:
 
 1. `npm run build` <br>
-2. Navigate to `chrome://extensions/` in your browser <br>
-3. Toggle the `Developer mode` switch on in the top right hand corner <br>
-4. Click the `Load unpacked` button in the top left corner <br>
-5. Select the `build` folder inside of this project folder <br>
+2. Перейдіть до `chrome://extensions/` в браузері <br>
+3. Активуйте вмикач `Режим розробника` в правому верхньому куті <br>
+4. Натисніть на `Load unpacked` в лівому верхньому куті <br>
+5. Оберіть папку `build` всередині цього проекту <br>
 
-Builds the app for Chrome to the `build` folder.<br>
 
