@@ -29,7 +29,7 @@ const Modal = () => {
                         onClick={getExtensionId}
                         className="modal-button"
                       >
-                        Get Extension ID
+                        Отримати ID розширення
                       </button>
                     </div>
                   </div>

@@ -12,13 +12,13 @@
   will-change: transform;
   margin-top: 2em;
   position: absolute;
-  background: rgba(30, 32, 44, .99);
+  background: rgba(230, 230, 230, 0.99);
   min-width: 150px;
   height: initial;
-  border-radius: 3px;
+  border-radius: 1px;
   box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
   z-index: 9999;
-  border: 1px solid #333748;
+  border: 1px solid #6e6e6e;
 }
 
 .modal-window-inner-border {
@@ -26,7 +26,7 @@
   height: initial;
   display: flex;
   border-radius: 3px;
-  box-shadow: 0 0 0 0.4px #222132;
+  box-shadow: 0 0 0 0.4px #6e6e6e;
 }
 
 .modal-window-inner-border:before {
@@ -35,7 +35,7 @@
   left: .4px;
   right: .4px;
   bottom: .4px;
-  border: .5px solid #57566d;
+  border: .5px solid #6e6e6e;
   border-radius: 3px;
 }
 
@@ -82,15 +82,15 @@
 }
 
 .modal-button {
-  background-image: linear-gradient(25deg,#21d4fd,#b721ff 50%,#017eff);
+  background: rgba(106, 98, 207, 0.99);
   background-size: 500%;
   border: none;
-  border-radius: 3px;
-  box-shadow: 0 3px 0 0 #5664a7;
+  border-radius: 1px;
+  box-shadow: 0 3px 0 0 #37376e;
   color: #fff;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
-  height: 40px;
-  width: 150px;
+  height: 50px;
+  width: 220px;
 }
 
